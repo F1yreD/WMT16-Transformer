@@ -1,5 +1,6 @@
 *.txt
 .cache/
+wmt16/
 wmt16 back/
 checkpoints/
 runs/

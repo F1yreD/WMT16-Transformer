@@ -25,7 +25,7 @@ def moses_cut(in_file, out_file, lang):
     out_f = open(out_file, "w", encoding="utf8")
     with open(in_file, "r", encoding="utf8") as f:
         for line in f.readlines():  # 每读取一行，进行分词，并写入一行到新的文件中
-            line = line.strip()
+            line = line.strip() 
             if not line:
                 continue
             cut_line = mt.tokenize(line, return_str=True)  # 分词
@@ -75,8 +75,3 @@ if __name__ == "__main__":
             lang=args.trg_lang,
         )
         print(f"[{mode}] 目标语言文本分词完成")
-    # 创建文件夹，移动读取的文本到刚创建的文件夹里
-    # if not data_dir.exists():
-    #     data_dir.mkdir(parents=True)
-    # for fpath in local_data_path.glob("*.txt"): # 遍历所有分词后的文件,并移动到目标文件夹
-    #     fpath.rename(data_dir / fpath.name)
