@@ -5,3 +5,4 @@ wmt16 back/
 checkpoints/
 runs/
 生成器.ipynb
+best.ckpt
