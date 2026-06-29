@@ -5,10 +5,10 @@
 数据集来源：WMT16 Multimodal Task（DE-EN）  
 https://www.statmt.org/wmt16/multimodal-task.html#task1
 
-testing cross entropy loss: 3.419556591629982
-BLEU-1 (sentence avg): 0.5672879182442075
-BLEU-4 (sentence avg): 0.21087645611642775
-BLEU-4 (corpus): 0.2244893350820118
+- testing cross entropy loss: 3.419556591629982
+- BLEU-1 (sentence avg): 0.5672879182442075
+- BLEU-4 (sentence avg): 0.21087645611642775
+- BLEU-4 (corpus): 0.2244893350820118
 
 ## 主要内容
 
