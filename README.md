@@ -2,7 +2,7 @@
 
 基于 PyTorch 的 Transformer（Encoder-Decoder）实现与实验工程，面向 **德语→英语** 机器翻译任务。项目包含从数据预处理（Moses 分词 + BPE）、训练、验证/测试、TensorBoard 可视化到 BLEU 评估（BLEU-1 / BLEU-4）的完整流程，主要以 Jupyter Notebook 形式组织。
 
-数据集来源：WMT16 Multimodal Task（DE-EN）  
+数据集来源：WMT16 Multimodal Task（DE-EN）  30k平行语料集
 https://www.statmt.org/wmt16/multimodal-task.html#task1
 
 - testing cross entropy loss: 3.419556591629982
